@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./navbar.module.css";
+import { Link } from "react-router-dom";
 
 function Navbar(props) {
   const { state } = props;
@@ -7,13 +8,13 @@ function Navbar(props) {
     <div className={style.navbar}>
       <ul className={style.ul}>
         <li className={style.li}>
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li className={style.li}>
-          <a href="/post">Post</a>
+          <Link to="/post">Post</Link>
         </li>
         <li className={style.li}>
-          <a href="/retrive">Retrive</a>
+          <Link to="/retrive">Retrive</Link>
         </li>
       </ul>
     </div>
