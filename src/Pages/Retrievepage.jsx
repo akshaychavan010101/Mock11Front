@@ -7,7 +7,7 @@ import CardComp from "../components/Card/Card";
 function Retrievepage() {
   const [data, setData] = useState([]);
   const [del, setDel] = useState(false);
-  const baseURL = "http://localhost:3000";
+  const baseURL = "https://mock11-p6rc.onrender.com";
 
   const filterFun = () => {
     const filterSelect = document.getElementById("filterSelect");

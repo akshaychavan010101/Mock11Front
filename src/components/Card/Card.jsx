@@ -34,7 +34,7 @@ function CardComp(props) {
             colorScheme="red"
             onClick={() => {
               try {
-                fetch(`http://localhost:3000/api/delete/${item._id}`, {
+                fetch(`https://mock11-p6rc.onrender.com/delete/${item._id}`, {
                   method: "DELETE",
                 })
                   .then((res) => res.json())
