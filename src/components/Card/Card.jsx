@@ -20,6 +20,7 @@ function CardComp(props) {
         <Stack mt="6" spacing="3">
           <Heading size="md">Name : {item.name}</Heading>
           <Text>Email : {item.email}</Text>
+          <Text>Total Travellers : {item.total_travellers}</Text>
           <Text>Destination : {item.destination}</Text>
           <Text color="blue.600" fontSize="2xl">
             Budget : {item.budget_per_person}
